@@ -1,0 +1,11 @@
+key = 3f88afe52abee84e5134ba68cfa58933
+
+search=curl --request GET \
+     --url 'https://api.themoviedb.org/3/search/movie?query=avatar&include_adult=false&language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZjg4YWZlNTJhYmVlODRlNTEzNGJhNjhjZmE1ODkzMyIsIm5iZiI6MTcyODM4OTQ3NS42Nzg5NDEsInN1YiI6IjY3MDUxZWVjMzIyZDNlYTgzMTFkNGQzYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.g__ROrDZsK1aeaaz173JfilI0hdCKZqf0P9ZFuDdThM' \
+     --header 'accept: application/json'
+
+individual= curl --request GET \
+     --url 'https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZjg4YWZlNTJhYmVlODRlNTEzNGJhNjhjZmE1ODkzMyIsIm5iZiI6MTcyODM4OTQ3NS42Nzg5NDEsInN1YiI6IjY3MDUxZWVjMzIyZDNlYTgzMTFkNGQzYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.g__ROrDZsK1aeaaz173JfilI0hdCKZqf0P9ZFuDdThM' \
+     --header 'accept: application/json'
